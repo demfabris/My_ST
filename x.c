@@ -256,6 +256,9 @@ static char *opt_title = NULL;
 static int oldbutton = 3; /* button event on startup: 3 = release */
 static int cursorblinks = 0;
 
+static Cursor cursor;
+static XColor xmousefg, xmousebg;
+
 void
 clipcopy(const Arg *dummy)
 {
@@ -1104,10 +1107,8 @@ void
 xinit(int cols, int rows)
 {
 	XGCValues gcvalues;
-	Cursor cursor;
 	Window parent;
 	pid_t thispid = getpid();
-	XColor xmousefg, xmousebg;
 
 	if (!(xw.dpy = XOpenDisplay(NULL)))
 		die("can't open display\n");
@@ -1733,6 +1734,12 @@ xsetmode(int set, unsigned int flags)
 {
 	int mode = win.mode;
 	MODBIT(win.mode, set, flags);
+        if (flags & MODE_MOUSE) {
+                if (win.mode & MODE_MOUSE)
+                        XUndefineCursor(xw.dpy, xw.win);
+                else
+                        XDefineCursor(xw.dpy, xw.win, cursor);
+        }
 	if ((win.mode & MODE_REVERSE) != (mode & MODE_REVERSE))
 		redraw();
 }
