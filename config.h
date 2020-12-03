@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FantasqueSansMono Nerd Font:pixelsize=16:antialias=true:autohint=true";
-static int borderpx = 2;
+static char *font = "FantasqueSansMono Nerd Font:size=14:antialias=true:autohint=true";
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -107,15 +107,15 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-  "#282c34",
-  "#e06c75",
-  "#98c379",
-  "#d19a66",
-  "#61afef",
-  "#c678dd",
-  "#56b6c2",
-  "#abb2bf",
-  "#5c6370",
+  "#1b2b34",
+  "#ec5f67",
+  "#99c794",
+  "#fac863",
+  "#6699cc",
+  "#c594c5",
+  "#5fb3b3",
+  "#d8dee9",
+  "#343d46",
   "#e06c75",
   "#98c379",
   "#d19a66",
