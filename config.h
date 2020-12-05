@@ -6,8 +6,8 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "FantasqueSansMono Nerd Font:size=14:antialias=true:autohint=true";
-static char *font2[] = {"Fantasque Sans Mono Nerd Font:style=italic:size=14:antialias=true:autohint=true" };
-static int borderpx = 1;
+static char *font2[] = {"noto-emoji:size=14:antialias=true:autohint=true"};
+static int borderpx = 2;
 
 /*
  * What program is execed by st depends of these precedence rules:
