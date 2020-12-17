@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FantasqueSansMono Nerd Font:size=14:antialias=true:autohint=true";
-static char *font2[] = {"noto-emoji:size=14:antialias=true:autohint=true"};
+static char *font = "FantasqueSansMono Nerd Font:size=16:antialias=true:autohint=true";
+static char *font2[] = {"noto-emoji:size=16:antialias=true:autohint=true"};
 static int borderpx = 2;
 
 /*
@@ -61,7 +61,7 @@ static double maxlatency = 33;
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
  * attribute.
  */
-static unsigned int blinktimeout = 800;
+static unsigned int blinktimeout = 600;
 
 /*
  * thickness of underline and bar cursors
