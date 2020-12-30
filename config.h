@@ -107,23 +107,44 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
+// Oceanic Next
+/* static const char *colorname[] = { */
+/*   "#1b2b34", */
+/*   "#ec5f67", */
+/*   "#99c794", */
+/*   "#fac863", */
+/*   "#6699cc", */
+/*   "#c594c5", */
+/*   "#5fb3b3", */
+/*   "#d8dee9", */
+/*   "#343d46", */
+/*   "#e06c75", */
+/*   "#98c379", */
+/*   "#d19a66", */
+/*   "#61afef", */
+/*   "#c678dd", */
+/*   "#56b6c2", */
+/*   "#ffffff" */
+/* }; */
+
+// One Dark
 static const char *colorname[] = {
-  "#1b2b34",
-  "#ec5f67",
-  "#99c794",
-  "#fac863",
-  "#6699cc",
-  "#c594c5",
-  "#5fb3b3",
-  "#d8dee9",
-  "#343d46",
-  "#e06c75",
-  "#98c379",
-  "#d19a66",
-  "#61afef",
-  "#c678dd",
-  "#56b6c2",
-  "#ffffff"
+  "#282c34", /* 0: black */
+  "#e06c75", /* 1: red */
+  "#98c379", /* 2: green */
+  "#d19a66", /* 3: yellow */
+  "#61afef", /* 4: blue */
+  "#c678dd", /* 5: magenta */
+  "#56b6c2", /* 6: cyan */
+  "#abb2bf", /* 7: white */
+  "#5c6370", /* 8: brblack */
+  "#e06c75", /* 9: brred */
+  "#98c379", /* 10: brgreen */
+  "#d19a66", /* 11: bryellow */
+  "#61afef", /* 12: brblue */
+  "#c678dd", /* 13: brmagenta */
+  "#56b6c2", /* 14: brcyan */
+  "#ffffff", /* 15: brwhite */
 };
 
 
