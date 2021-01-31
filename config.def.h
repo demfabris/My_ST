@@ -128,25 +128,47 @@ unsigned int tabspaces = 8;
 /* }; */
 
 // One Dark
-static const char *colorname[] = {
-  "#282c34", /* 0: black */
-  "#e06c75", /* 1: red */
-  "#98c379", /* 2: green */
-  "#d19a66", /* 3: yellow */
-  "#61afef", /* 4: blue */
-  "#c678dd", /* 5: magenta */
-  "#56b6c2", /* 6: cyan */
-  "#abb2bf", /* 7: white */
-  "#5c6370", /* 8: brblack */
-  "#e06c75", /* 9: brred */
-  "#98c379", /* 10: brgreen */
-  "#d19a66", /* 11: bryellow */
-  "#61afef", /* 12: brblue */
-  "#c678dd", /* 13: brmagenta */
-  "#56b6c2", /* 14: brcyan */
-  "#ffffff", /* 15: brwhite */
-};
+/* static const char *colorname[] = { */
+/*   "#282c34", /1* 0: black *1/ */
+/*   "#e06c75", /1* 1: red *1/ */
+/*   "#98c379", /1* 2: green *1/ */
+/*   "#d19a66", /1* 3: yellow *1/ */
+/*   "#61afef", /1* 4: blue *1/ */
+/*   "#c678dd", /1* 5: magenta *1/ */
+/*   "#56b6c2", /1* 6: cyan *1/ */
+/*   "#abb2bf", /1* 7: white *1/ */
+/*   "#5c6370", /1* 8: brblack *1/ */
+/*   "#e06c75", /1* 9: brred *1/ */
+/*   "#98c379", /1* 10: brgreen *1/ */
+/*   "#d19a66", /1* 11: bryellow *1/ */
+/*   "#61afef", /1* 12: brblue *1/ */
+/*   "#c678dd", /1* 13: brmagenta *1/ */
+/*   "#56b6c2", /1* 14: brcyan *1/ */
+/*   "#ffffff", /1* 15: brwhite *1/ */
+/* }; */
 
+// Gruvbox
+static const char *colorname[] = {
+	/* 8 normal colors */
+	[0] = "#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
+	[1] = "#cc241d", /* red     */
+	[2] = "#98971a", /* green   */
+	[3] = "#d79921", /* yellow  */
+	[4] = "#458588", /* blue    */
+	[5] = "#b16286", /* magenta */
+	[6] = "#689d6a", /* cyan    */
+	[7] = "#a89984", /* white   */
+
+	/* 8 bright colors */
+	[8]  = "#928374", /* black   */
+	[9]  = "#fb4934", /* red     */
+	[10] = "#b8bb26", /* green   */
+	[11] = "#fabd2f", /* yellow  */
+	[12] = "#83a598", /* blue    */
+	[13] = "#d3869b", /* magenta */
+	[14] = "#8ec07c", /* cyan    */
+	[15] = "#ebdbb2", /* white   */
+};
 
 /*
  * Default colors (colorname index)
