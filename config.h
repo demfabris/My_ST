@@ -107,25 +107,46 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
-// Oceanic Next
+
+// Ayu mirage
 static const char *colorname[] = {
-  "#1b2b34",
-  "#ec5f67",
-  "#99c794",
-  "#fac863",
-  "#6699cc",
-  "#c594c5",
-  "#5fb3b3",
-  "#d8dee9",
-  "#343d46",
-  "#e06c75",
-  "#98c379",
-  "#d19a66",
-  "#61afef",
-  "#c678dd",
-  "#56b6c2",
-  "#ffffff"
+  "#1f2430",
+  "#f28779",
+  "#bae67e",
+  "#ffcc66",
+  "#5ccfe6",
+  "#d4bfff",
+  "#95e5cb",
+  "#cbccc6",
+  "#0a0e14",
+  "#f07178",
+  "#c2d94c",
+  "#e6b450",
+  "#59c2ff",
+  "#d4bfff",
+  "#95e6cb",
+  "#fafafa"
 };
+
+// Oceanic Next
+/* static const char *colorname[] = { */
+/*   "#1b2b34", */
+/*   "#ec5f67", */
+/*   "#99c794", */
+/*   "#fac863", */
+/*   "#6699cc", */
+/*   "#c594c5", */
+/*   "#5fb3b3", */
+/*   "#d8dee9", */
+/*   "#343d46", */
+/*   "#e06c75", */
+/*   "#98c379", */
+/*   "#d19a66", */
+/*   "#61afef", */
+/*   "#c678dd", */
+/*   "#56b6c2", */
+/*   "#ffffff" */
+/* }; */
 
 // One Dark
 /* static const char *colorname[] = { */
