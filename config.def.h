@@ -130,12 +130,12 @@ unsigned int tabspaces = 8;
 
 // Ayu dark
 static const char *colorname[] = {
-  "#0a0e14",
+  "#1c2328",
   "#f07178",
   "#c2d94c",
   "#e6b450",
   "#59c2ff",
-  "#d4bfff",
+  "#ff8f40",
   "#95e6cb",
   "#b3b1ad",
   "#0a0e14",
