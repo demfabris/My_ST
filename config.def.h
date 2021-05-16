@@ -109,15 +109,27 @@ unsigned int tabspaces = 8;
 /* Terminal colors (16 first used in escape sequence) */
 
 // Ayu mirage
+/* static const char *colorname[] = { */
+/*   "#1f2430", */
+/*   "#f28779", */
+/*   "#bae67e", */
+/*   "#ffcc66", */
+/*   "#5ccfe6", */
+/*   "#d4bfff", */
+/*   "#95e5cb", */
+/*   "#cbccc6", */
+/*   "#0a0e14", */
+/*   "#f07178", */
+/*   "#c2d94c", */
+/*   "#e6b450", */
+/*   "#59c2ff", */
+/*   "#d4bfff", */
+/*   "#95e6cb", */
+/*   "#fafafa" */
+/* }; */
+
+// Ayu dark
 static const char *colorname[] = {
-  "#1f2430",
-  "#f28779",
-  "#bae67e",
-  "#ffcc66",
-  "#5ccfe6",
-  "#d4bfff",
-  "#95e5cb",
-  "#cbccc6",
   "#0a0e14",
   "#f07178",
   "#c2d94c",
@@ -125,7 +137,15 @@ static const char *colorname[] = {
   "#59c2ff",
   "#d4bfff",
   "#95e6cb",
-  "#fafafa"
+  "#b3b1ad",
+  "#0a0e14",
+  "#f07178",
+  "#c2d94c",
+  "#e6b450",
+  "#59c2ff",
+  "#d4bfff",
+  "#95e6cb",
+  "#b3b1ad",
 };
 
 // Oceanic Next
